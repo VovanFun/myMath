@@ -2,7 +2,7 @@ class myMath {
     let pi : Double
     
     init() {
-        pi = evaluatePi(count: 1000)
+        //pi = evaluatePi(count: 1000)
     }
     
     func factorial(number: Int) -> Int {
