@@ -22,6 +22,9 @@ class myMath {
     
     func power(basic: Int, pow: UInt) -> Int {
         var rezult = 1
+		if pow == 0 {
+			return rezult
+		}
         for _ in 1...pow {
             rezult *= basic
         }
@@ -30,6 +33,9 @@ class myMath {
     
     func power(basic: Double, pow: UInt) -> Double {
         var rezult = 1.0
+		if pow == 0 {
+			return rezult
+		}
         for _ in 1...pow {
             rezult *= basic
         }
